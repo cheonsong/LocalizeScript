@@ -1,13 +1,13 @@
 # LocalizeScript
-Localizing script written in Python for iOS
-
+Localizing script written in Python for iOS   
+GoogleSpreadSheet -> CSV -> Strings
 ## Version
 - python3.10
 - pip3
 
 ## Module
 ```shell
-pip install oauth2client
+pip install oauth2client   
 pip install gspread
 ```
 
