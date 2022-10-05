@@ -19,14 +19,15 @@ JSON_KEY_PATH = "../../Scripts/diary-364506-154725c9cb23.json"
 CSV_FILE_PATH = "../../Scripts/localize.csv"
 # language.lproj directory path
 LPROJ_PATH = "../../Diary/App/Resources/"
+# Google Spread Sheet Key
+SPREADSHEET_KEY = "1m-OJOgLcWXkFNugPWcYUMVxosskWbgtt7Or1CJTtEwI"
 
 # Google Auth Check
 credential = ServiceAccountCredentials.from_json_keyfile_name(JSON_KEY_PATH, scope)
 gc = gspread.authorize(credential)
 
 # Open Spread Sheet with Key
-spreadsheet_key = "1m-OJOgLcWXkFNugPWcYUMVxosskWbgtt7Or1CJTtEwI"
-doc = gc.open_by_key(spreadsheet_key)
+doc = gc.open_by_key(SPREADSHEET_KEY)
 
 # Select Sheet
 sheet = doc.worksheet("Strings")
