@@ -23,9 +23,9 @@ CSV_FILE_PATH = "../../Scripts/localize.csv"
 LPROJ_PATH = "../../Diary/App/Resources/"
 # Google Spread Sheet Key
 # You can get it from Google Spreadsheet url.
-SPREADSHEET_KEY = "1m-OJOgLcWXkFNugPWcYUMVxosskWbgtt7Or1CJTtEwI"
+SPREADSHEET_KEY = "1m-OJOgLcWXkFNugPWcWbgtt7Or1CJTtEwI"
 # Select worksheet
-sheet = doc.worksheet("Strings")
+sheet = doc.worksheet("Strngs")
 ```
 
 ### Google Spread Sheet Form
