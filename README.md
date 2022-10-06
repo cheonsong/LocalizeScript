@@ -1,4 +1,4 @@
-# LocalizeScript
+# Localize
 Localizing script written in Python for iOS   
 GoogleSpreadSheet -> CSV -> Strings
 ## Version
